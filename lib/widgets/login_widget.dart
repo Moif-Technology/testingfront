@@ -1,7 +1,7 @@
-import 'package:another_flushbar/flushbar.dart'; // Import the another_flushbar package
 import 'package:fitness_dashboard_ui/services/api_services.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
+import 'package:another_flushbar/flushbar.dart'; // Import the another_flushbar package
 
 class LoginScreen extends StatefulWidget {
   @override
@@ -14,8 +14,7 @@ class _LoginScreenState extends State<LoginScreen> {
   bool _isSecurePassword = true;
   bool _isLoading = false; // To track loading state
   final ApiServices _apiServices = ApiServices(); // Centralized API service
-  final FlutterSecureStorage _storage =
-      FlutterSecureStorage(); // For secure storage of JWT
+  final FlutterSecureStorage _storage = FlutterSecureStorage(); // For secure storage of JWT
 
   void _login() async {
     // Disable the button during the login process
@@ -192,16 +191,14 @@ class _LoginScreenState extends State<LoginScreen> {
           borderRadius: BorderRadius.circular(12), // Subtle rounded corners
           borderSide: BorderSide.none,
         ),
-        labelStyle: TextStyle(
-            color: Color(0xFF3A1C71)), // Deep violet text color for labels
+        labelStyle: TextStyle(color: Color(0xFF3A1C71)), // Deep violet text color for labels
         focusedBorder: OutlineInputBorder(
           borderRadius: BorderRadius.circular(12),
           borderSide: BorderSide(color: Color(0xFF3A1C71)),
         ),
         contentPadding: EdgeInsets.symmetric(vertical: 20, horizontal: 16),
       ),
-      style: TextStyle(
-          color: Color(0xFF3A1C71)), // Deep violet text color for input
+      style: TextStyle(color: Color(0xFF3A1C71)), // Deep violet text color for input
     );
   }
 
@@ -230,16 +227,14 @@ class _LoginScreenState extends State<LoginScreen> {
           borderRadius: BorderRadius.circular(12), // Subtle rounded corners
           borderSide: BorderSide.none,
         ),
-        labelStyle: TextStyle(
-            color: Color(0xFF3A1C71)), // Deep violet text color for labels
+        labelStyle: TextStyle(color: Color(0xFF3A1C71)), // Deep violet text color for labels
         focusedBorder: OutlineInputBorder(
           borderRadius: BorderRadius.circular(12),
           borderSide: BorderSide(color: Color(0xFF3A1C71)),
         ),
         contentPadding: EdgeInsets.symmetric(vertical: 20, horizontal: 16),
       ),
-      style: TextStyle(
-          color: Color(0xFF3A1C71)), // Deep violet text color for input
+      style: TextStyle(color: Color(0xFF3A1C71)), // Deep violet text color for input
     );
   }
 
@@ -274,9 +269,7 @@ class _LoginScreenState extends State<LoginScreen> {
               : Text(
                   'Login',
                   style: TextStyle(
-                      fontSize: 18,
-                      fontWeight: FontWeight.w600,
-                      color: Colors.white),
+                      fontSize: 18, fontWeight: FontWeight.w600, color: Colors.white),
                 ),
           style: ElevatedButton.styleFrom(
             backgroundColor: Colors.transparent,
