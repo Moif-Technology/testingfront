@@ -1,4 +1,4 @@
-#Thu Aug 15 09:16:25 GST 2024
-base.0=D\:\\Dashboard\\frontend\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+#Thu Sep 19 19:50:24 GST 2024
+base.0=D\:\\testingfrontend\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
